@@ -16,4 +16,6 @@ function handleSearchFormSubmit(e) {
   location.assign(queryString);
 }
 
+
+
 searchFormEl.on('submit', handleSearchFormSubmit); 
