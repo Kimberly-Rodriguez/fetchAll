@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+import React from 'react';
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Results | Library of Congress Search</title>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
-    rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/jass.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+import './Display.css';
 
-<body>
+const Display = () => {
 
-  <div class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh bg-primary">
+
+} 
+
+return (
+<div class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh bg-primary">
     <div class="col-12 col-md-3 bg-light p-3">
       <h1 class="text-primary">Library of Congress Search Engine</h1>
       <form id="search-form" class="mb-2">
@@ -41,9 +36,4 @@
     </div>
   </div>
 
-  <script src="./assets/js/display-search.js"></script>
-    <!-- Added link to the jQuery library -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-</body>
-
-</html>
+)
