@@ -112,13 +112,3 @@ function handleSearchFormSubmit(event) {
 searchFormEl.addEventListener('submit', handleSearchFormSubmit);
 
 getParams();
-
-
-
-
-
-
-
-
-
-getParams();

@@ -1,10 +1,11 @@
 
  html {
   line-height: 1.15;
-
+  /* 1 */
   -webkit-text-size-adjust: 100%;
- 
+  /* 2 */
 }
+
 
 body {
   margin: 0;
@@ -24,19 +25,19 @@ h1 {
 
 hr {
   box-sizing: content-box;
-
+  /* 1 */
   height: 0;
-  
+  /* 1 */
   overflow: visible;
-  
+  /* 2 */
 }
 
 
 pre {
   font-family: monospace, monospace;
- 
+  /* 1 */
   font-size: 1em;
-  
+  /* 2 */
 }
 
 
@@ -44,14 +45,13 @@ a {
   background-color: transparent;
 }
 
-
 abbr[title] {
   border-bottom: none;
- 
+  /* 1 */
   text-decoration: underline;
-
+  /* 2 */
   text-decoration: underline dotted;
-  
+  /* 2 */
 }
 
 b,
@@ -64,16 +64,15 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace;
- 
+  /* 1 */
   font-size: 1em;
-
+  /* 2 */
 }
 
 
 small {
   font-size: 80%;
 }
-
 
 sub,
 sup {
@@ -96,8 +95,6 @@ img {
   border-style: none;
 }
 
-/* Forms
-   ========================================================================== */
 
 button,
 input,
@@ -114,13 +111,11 @@ textarea {
   /* 2 */
 }
 
-
 button,
 input {
   /* 1 */
   overflow: visible;
 }
-
 
 button,
 select {
@@ -128,13 +123,13 @@ select {
   text-transform: none;
 }
 
-
 button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
   -webkit-appearance: button;
 }
+
 
 button::-moz-focus-inner,
 [type='button']::-moz-focus-inner,
@@ -144,7 +139,6 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
-
 button:-moz-focusring,
 [type='button']:-moz-focusring,
 [type='reset']:-moz-focusring,
@@ -152,7 +146,9 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
-
+/**
+ * Correct the padding in Firefox.
+ */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -178,12 +174,17 @@ progress {
   vertical-align: baseline;
 }
 
-
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
 textarea {
   overflow: auto;
 }
 
-
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
 [type='checkbox'],
 [type='radio'] {
   box-sizing: border-box;
@@ -192,13 +193,18 @@ textarea {
   /* 2 */
 }
 
-
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
 [type='number']::-webkit-inner-spin-button,
 [type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
-
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
 [type='search'] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -206,12 +212,17 @@ textarea {
   /* 2 */
 }
 
-
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
 [type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -221,7 +232,9 @@ textarea {
 
 /* Interactive
    ========================================================================== */
-
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
 details {
   display: block;
 }
