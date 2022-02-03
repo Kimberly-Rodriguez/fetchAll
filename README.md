@@ -1,4 +1,4 @@
-# fetchAll -- the search tool
+# fetchAll
 
 ## Table of Contents
 
