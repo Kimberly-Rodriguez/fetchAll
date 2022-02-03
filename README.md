@@ -11,14 +11,12 @@
 
 ## Description
 
-An application that searches and displays results from the Library of Congress API.
-
-The application allows for a submition of a search query from the application to request data and receive a response from the Library of Congress. The app can perform a generic search for data in all formats or select a format in the form to help filter results. Either approach allows for all of the results of the search to display on a separate page. Finally, if needed additional searches can also be conducted from the results page.
+An application that searches and displays results from the Library of Congress API. The app can perform a generic search for data in all formats or select a format in the form to help filter results. Either approach allows for all of the results of the search to display on a separate page. In addition, searches can also be conducted from the results page using the search bar.
 
 ## Installation
 
 * Clone the repo (please reference the links below).
-```md 
+```
 git@github.com:Kimberly-Rodriguez/fetchAll.git
 
 ```
@@ -38,7 +36,7 @@ The following image demonstrates the search results page's appearance and functi
 
 ## Tools
 
-This application was built using HTML, CSS and JavaScript. 
+This application was built using HTML, CSS and JavaScript principals. 
 
 To learn about how to use this API, check out the Requests section of the [Library of Congress API documentation](https://libraryofcongress.github.io/data-exploration/).
 
